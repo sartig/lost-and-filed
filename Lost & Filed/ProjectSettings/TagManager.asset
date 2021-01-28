@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 4243310941
+    locked: 0
+  - name: Midground
+    uniqueID: 200123613
+    locked: 0
+  - name: Polaroid
+    uniqueID: 757854083
+    locked: 0
+  - name: Foreground
+    uniqueID: 1065974221
+    locked: 0
