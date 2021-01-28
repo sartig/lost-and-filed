@@ -87,50 +87,6 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Chain2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 762
-      y: 4
-      width: 922
-      height: 811
-    spriteID: 25ce963bc6b56fa41896dafcf3ea5c0f
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 239, y: -1077}
-  - name: Chain1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 762
-      y: 823
-      width: 922
-      height: 811
-    spriteID: d1ac4695055174045972fda2f9c95496
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 239, y: -258}
   - name: KeyA
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -139,7 +95,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 2651
       width: 750
       height: 1119
     spriteID: 4b82d14049b3fdc4497c5d7c62dc9909
@@ -152,19 +108,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -394, y: -155}
-  - name: KeyB
+    uvTransform: {x: -190, y: 2518}
+  - name: Chain
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1131
-      width: 686
-      height: 1201
-    spriteID: 39551c078ec2af749a9f899c728e8bd6
+      x: 758
+      y: 2651
+      width: 918
+      height: 817
+    spriteID: 38105db474d70a646a93967f7fa01f8f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -174,7 +130,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -879, y: 1040}
+    uvTransform: {x: 440, y: 1607}
+  - name: 'KeyB '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1476
+      width: 1382
+      height: 1167
+    spriteID: 67d54d4a4e6ad6b4189b413f095a41dd
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -190, y: 1343}
+  - name: 'KeyC '
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1675
+      height: 1464
+    spriteID: c5d023e2e317ed2408dcd69db7e7f39c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -190, y: -129}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -194,41 +194,41 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Key
+  - name: Key Copy
     spriteName: 
     isGroup: 1
     parentIndex: -1
     spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
-  - name: Chain2
-    spriteName: Chain2
+  - name: Chain
+    spriteName: Chain
     isGroup: 0
     parentIndex: 0
-    spriteID: 25ce963bc6b56fa41896dafcf3ea5c0f
-    layerID: -1799221097
-    mosaicPosition: {x: 762, y: 4}
-  - name: Chain1
-    spriteName: Chain1
-    isGroup: 0
-    parentIndex: 0
-    spriteID: d1ac4695055174045972fda2f9c95496
-    layerID: 929662258
-    mosaicPosition: {x: 762, y: 823}
+    spriteID: 38105db474d70a646a93967f7fa01f8f
+    layerID: 1534575709
+    mosaicPosition: {x: 758, y: 2651}
   - name: KeyA
     spriteName: KeyA
     isGroup: 0
     parentIndex: 0
     spriteID: 4b82d14049b3fdc4497c5d7c62dc9909
     layerID: 862892732
-    mosaicPosition: {x: 4, y: 4}
-  - name: KeyB
-    spriteName: KeyB
+    mosaicPosition: {x: 4, y: 2651}
+  - name: 'KeyB '
+    spriteName: 'KeyB '
     isGroup: 0
     parentIndex: 0
-    spriteID: 39551c078ec2af749a9f899c728e8bd6
-    layerID: -1865990623
-    mosaicPosition: {x: 4, y: 1131}
+    spriteID: 67d54d4a4e6ad6b4189b413f095a41dd
+    layerID: -1678395167
+    mosaicPosition: {x: 4, y: 1476}
+  - name: 'KeyC '
+    spriteName: 'KeyC '
+    isGroup: 0
+    parentIndex: 0
+    spriteID: c5d023e2e317ed2408dcd69db7e7f39c
+    layerID: -112311226
+    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
     parts: []

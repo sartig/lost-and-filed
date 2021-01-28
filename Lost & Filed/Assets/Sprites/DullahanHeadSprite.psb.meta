@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c1fad679d350d245aac4cc546828149
+guid: ad737bc46e8b38247845944db4accea1
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: StickerD Copy
+  - name: DullaHelm
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,10 +95,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1789
-      width: 274
-      height: 238
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
+      y: 1382
+      width: 1422
+      height: 1340
+    spriteID: 4f2955fabc41e844da7d4b7b08060419
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,118 +108,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1157, y: 686}
-  - name: StickerC Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 556
-      y: 1485
-      width: 276
-      height: 253
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -436, y: 786}
-  - name: StickerB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1108
-      y: 1485
-      width: 207
-      height: 217
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 794, y: 524}
-  - name: StickerA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 840
-      y: 1485
-      width: 260
-      height: 241
-    spriteID: 76de2307be57fad49bdb409de0293731
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 401, y: 143}
-  - name: BrandB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1485
-      width: 275
-      height: 296
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -693, y: 520}
-  - name: BrandA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 287
-      y: 1485
-      width: 261
-      height: 296
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -411, y: 509}
-  - name: Base Copy
+    uvTransform: {x: -306, y: 862}
+  - name: DullaHair
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -228,9 +118,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1856
-      height: 1473
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
+      width: 1515
+      height: 1370
+    spriteID: 5729c8ebc8a2abe4b8497fb54a5bac5c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,13 +130,57 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -70, y: -265}
+    uvTransform: {x: -233, y: -222}
+  - name: DullaEyes
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1197
+      y: 2730
+      width: 733
+      height: 165
+    spriteID: 2d372d3640b89d5489db8f76be5f64c7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 555, y: 1916}
+  - name: DullaBase
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2730
+      width: 1185
+      height: 1309
+    spriteID: 109e82e3324b27c458657d3679aeecd2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -400, y: 2512}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 2048
+  importedTextureWidth: 1024
   importedTextureHeight: 2048
   documentSize: {x: 2000, y: 2000}
   paperDollMode: 0
@@ -254,75 +188,54 @@ ScriptedImporter:
   spriteCategoryList:
     categories: []
   textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: LapTop Copy
+  - name: Dullahan Copy
     spriteName: 
     isGroup: 1
     parentIndex: -1
     spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
-  - name: StickerD Copy
-    spriteName: StickerD Copy
+  - name: DullaHelm
+    spriteName: DullaHelm
     isGroup: 0
     parentIndex: 0
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
-    layerID: -1233409168
-    mosaicPosition: {x: 4, y: 1789}
-  - name: StickerC Copy
-    spriteName: StickerC Copy
+    spriteID: 4f2955fabc41e844da7d4b7b08060419
+    layerID: -182924356
+    mosaicPosition: {x: 4, y: 1382}
+  - name: DullaHair
+    spriteName: DullaHair
     isGroup: 0
     parentIndex: 0
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
-    layerID: -911969869
-    mosaicPosition: {x: 556, y: 1485}
-  - name: StickerB Copy
-    spriteName: StickerB Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    layerID: -830899634
-    mosaicPosition: {x: 1108, y: 1485}
-  - name: StickerA Copy
-    spriteName: StickerA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 76de2307be57fad49bdb409de0293731
-    layerID: 139101545
-    mosaicPosition: {x: 840, y: 1485}
-  - name: BrandB Copy
-    spriteName: BrandB Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    layerID: -413123876
-    mosaicPosition: {x: 4, y: 1485}
-  - name: BrandA Copy
-    spriteName: BrandA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    layerID: -656334581
-    mosaicPosition: {x: 287, y: 1485}
-  - name: Base Copy
-    spriteName: Base Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
-    layerID: -67264804
+    spriteID: 5729c8ebc8a2abe4b8497fb54a5bac5c
+    layerID: -942439088
     mosaicPosition: {x: 4, y: 4}
+  - name: DullaEyes
+    spriteName: DullaEyes
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2d372d3640b89d5489db8f76be5f64c7
+    layerID: -1002789454
+    mosaicPosition: {x: 1197, y: 2730}
+  - name: DullaBase
+    spriteName: DullaBase
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 109e82e3324b27c458657d3679aeecd2
+    layerID: 1295957929
+    mosaicPosition: {x: 4, y: 2730}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: LaptopSprite Texture
-  prefabAssetName: LaptopSprite Prefab
-  spriteLibAssetName: LaptopSprite Sprite Lib
+  textureAssetName: DullahanHeadSprite Texture
+  prefabAssetName: DullahanHeadSprite Prefab
+  spriteLibAssetName: DullahanHeadSprite Sprite Lib
   secondarySpriteTextures: []

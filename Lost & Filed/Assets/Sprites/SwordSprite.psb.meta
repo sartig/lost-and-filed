@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c1fad679d350d245aac4cc546828149
+guid: 70db8942bdf074244964c93f530c16d5
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: StickerD Copy
+  - name: Hilt
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1789
-      width: 274
-      height: 238
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
+      x: 979
+      y: 4
+      width: 815
+      height: 875
+    spriteID: 7432566b2a241594f8c2b99a77e4d4d2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,19 +108,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1157, y: 686}
-  - name: StickerC Copy
+    uvTransform: {x: 198, y: -45}
+  - name: ShortBlade
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 556
-      y: 1485
-      width: 276
-      height: 253
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
+      x: 979
+      y: 887
+      width: 700
+      height: 851
+    spriteID: b2e77296c050a0641b0c7f4122fc2b6a
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,96 +130,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -436, y: 786}
-  - name: StickerB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1108
-      y: 1485
-      width: 207
-      height: 217
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 794, y: 524}
-  - name: StickerA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 840
-      y: 1485
-      width: 260
-      height: 241
-    spriteID: 76de2307be57fad49bdb409de0293731
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 401, y: 143}
-  - name: BrandB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1485
-      width: 275
-      height: 296
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -693, y: 520}
-  - name: BrandA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 287
-      y: 1485
-      width: 261
-      height: 296
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -411, y: 509}
-  - name: Base Copy
+    uvTransform: {x: 315, y: 295}
+  - name: LongBlade
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -228,9 +140,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1856
-      height: 1473
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
+      width: 967
+      height: 1385
+    spriteID: 73bb1247ba6361a4aa643f324c039092
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -70, y: -265}
+    uvTransform: {x: -407, y: -556}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -260,61 +172,33 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: LapTop Copy
+  - name: Sword Copy
     spriteName: 
     isGroup: 1
     parentIndex: -1
     spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
-  - name: StickerD Copy
-    spriteName: StickerD Copy
+  - name: Hilt
+    spriteName: Hilt
     isGroup: 0
     parentIndex: 0
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
-    layerID: -1233409168
-    mosaicPosition: {x: 4, y: 1789}
-  - name: StickerC Copy
-    spriteName: StickerC Copy
+    spriteID: 7432566b2a241594f8c2b99a77e4d4d2
+    layerID: 1178975481
+    mosaicPosition: {x: 979, y: 4}
+  - name: ShortBlade
+    spriteName: ShortBlade
     isGroup: 0
     parentIndex: 0
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
-    layerID: -911969869
-    mosaicPosition: {x: 556, y: 1485}
-  - name: StickerB Copy
-    spriteName: StickerB Copy
+    spriteID: b2e77296c050a0641b0c7f4122fc2b6a
+    layerID: -560961886
+    mosaicPosition: {x: 979, y: 887}
+  - name: LongBlade
+    spriteName: LongBlade
     isGroup: 0
     parentIndex: 0
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    layerID: -830899634
-    mosaicPosition: {x: 1108, y: 1485}
-  - name: StickerA Copy
-    spriteName: StickerA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 76de2307be57fad49bdb409de0293731
-    layerID: 139101545
-    mosaicPosition: {x: 840, y: 1485}
-  - name: BrandB Copy
-    spriteName: BrandB Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    layerID: -413123876
-    mosaicPosition: {x: 4, y: 1485}
-  - name: BrandA Copy
-    spriteName: BrandA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    layerID: -656334581
-    mosaicPosition: {x: 287, y: 1485}
-  - name: Base Copy
-    spriteName: Base Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
-    layerID: -67264804
+    spriteID: 73bb1247ba6361a4aa643f324c039092
+    layerID: 880424826
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -322,7 +206,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: LaptopSprite Texture
-  prefabAssetName: LaptopSprite Prefab
-  spriteLibAssetName: LaptopSprite Sprite Lib
+  textureAssetName: SwordSprite Texture
+  prefabAssetName: SwordSprite Prefab
+  spriteLibAssetName: SwordSprite Sprite Lib
   secondarySpriteTextures: []

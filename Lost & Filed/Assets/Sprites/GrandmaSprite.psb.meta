@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c1fad679d350d245aac4cc546828149
+guid: 609037432a7a66341842df200f4e1529
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,51 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: StickerD Copy
+  - name: GrandHair
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 846
+      y: 893
+      width: 670
+      height: 568
+    spriteID: 686de309b0abd704a9e97dff9bfc7220
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 199, y: -468}
+  - name: GrandPieColor
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 540
+      y: 1580
+      width: 298
+      height: 113
+    spriteID: c613c29e9e971c943974d8c0ce96ab83
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -292, y: 722}
+  - name: GrandPieBaseTray
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,10 +139,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1789
-      width: 274
-      height: 238
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
+      y: 1580
+      width: 528
+      height: 256
+    spriteID: 2825a3849a5bf874a842af01bc2f06e2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,19 +152,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1157, y: 686}
-  - name: StickerC Copy
+    uvTransform: {x: -714, y: 851}
+  - name: GrandClothes
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 556
-      y: 1485
-      width: 276
-      height: 253
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
+      x: 846
+      y: 4
+      width: 831
+      height: 881
+    spriteID: 73710f11f34b94c47b17f70487f495c9
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,96 +174,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -436, y: 786}
-  - name: StickerB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1108
-      y: 1485
-      width: 207
-      height: 217
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 794, y: 524}
-  - name: StickerA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 840
-      y: 1485
-      width: 260
-      height: 241
-    spriteID: 76de2307be57fad49bdb409de0293731
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 401, y: 143}
-  - name: BrandB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1485
-      width: 275
-      height: 296
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -693, y: 520}
-  - name: BrandA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 287
-      y: 1485
-      width: 261
-      height: 296
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -411, y: 509}
-  - name: Base Copy
+    uvTransform: {x: 272, y: -374}
+  - name: GrandBase
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -228,9 +184,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1856
-      height: 1473
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
+      width: 834
+      height: 1568
+    spriteID: e6dc4c3ecd38dd4478fbbe1e1719b9d2
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,7 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -70, y: -265}
+    uvTransform: {x: -561, y: -65}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -260,61 +216,47 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: LapTop Copy
+  - name: Grandma Copy
     spriteName: 
     isGroup: 1
     parentIndex: -1
     spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
-  - name: StickerD Copy
-    spriteName: StickerD Copy
+  - name: GrandHair
+    spriteName: GrandHair
     isGroup: 0
     parentIndex: 0
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
-    layerID: -1233409168
-    mosaicPosition: {x: 4, y: 1789}
-  - name: StickerC Copy
-    spriteName: StickerC Copy
+    spriteID: 686de309b0abd704a9e97dff9bfc7220
+    layerID: 1263411852
+    mosaicPosition: {x: 846, y: 893}
+  - name: GrandPieColor
+    spriteName: GrandPieColor
     isGroup: 0
     parentIndex: 0
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
-    layerID: -911969869
-    mosaicPosition: {x: 556, y: 1485}
-  - name: StickerB Copy
-    spriteName: StickerB Copy
+    spriteID: c613c29e9e971c943974d8c0ce96ab83
+    layerID: 1597231567
+    mosaicPosition: {x: 540, y: 1580}
+  - name: GrandPieBaseTray
+    spriteName: GrandPieBaseTray
     isGroup: 0
     parentIndex: 0
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    layerID: -830899634
-    mosaicPosition: {x: 1108, y: 1485}
-  - name: StickerA Copy
-    spriteName: StickerA Copy
+    spriteID: 2825a3849a5bf874a842af01bc2f06e2
+    layerID: -1699593159
+    mosaicPosition: {x: 4, y: 1580}
+  - name: GrandClothes
+    spriteName: GrandClothes
     isGroup: 0
     parentIndex: 0
-    spriteID: 76de2307be57fad49bdb409de0293731
-    layerID: 139101545
-    mosaicPosition: {x: 840, y: 1485}
-  - name: BrandB Copy
-    spriteName: BrandB Copy
+    spriteID: 73710f11f34b94c47b17f70487f495c9
+    layerID: -821785760
+    mosaicPosition: {x: 846, y: 4}
+  - name: GrandBase
+    spriteName: GrandBase
     isGroup: 0
     parentIndex: 0
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    layerID: -413123876
-    mosaicPosition: {x: 4, y: 1485}
-  - name: BrandA Copy
-    spriteName: BrandA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    layerID: -656334581
-    mosaicPosition: {x: 287, y: 1485}
-  - name: Base Copy
-    spriteName: Base Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
-    layerID: -67264804
+    spriteID: e6dc4c3ecd38dd4478fbbe1e1719b9d2
+    layerID: -793158421
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -322,7 +264,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: LaptopSprite Texture
-  prefabAssetName: LaptopSprite Prefab
-  spriteLibAssetName: LaptopSprite Sprite Lib
+  textureAssetName: GrandmaSprite Texture
+  prefabAssetName: GrandmaSprite Prefab
+  spriteLibAssetName: GrandmaSprite Sprite Lib
   secondarySpriteTextures: []

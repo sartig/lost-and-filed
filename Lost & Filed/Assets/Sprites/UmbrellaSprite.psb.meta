@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: ShortBase
+  - name: Short
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,10 +95,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 1503
-      width: 1302
-      height: 488
-    spriteID: 70fb0364c25f61347a805a7f2ccda2ac
+      y: 1786
+      width: 1825
+      height: 747
+    spriteID: 4e1269455cccd0d408a9db73969c3285
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,30 +108,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -605, y: 706}
-  - name: ShortHandle
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 2633
-      width: 628
-      height: 690
-    spriteID: 60cb2cd7dbe413946873215c92380808
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -82, y: 2095}
-  - name: LongBase
+    uvTransform: {x: -82, y: 1248}
+  - name: Long
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -140,9 +118,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1469
-      height: 1491
-    spriteID: 74d873c7425fbe24c84b38cf1a90883d
+      width: 1774
+      height: 1774
+    spriteID: 36c00b5e2e7941c4cb0fd5526c5c03ed
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -153,28 +131,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: -115, y: -136}
-  - name: LongHandle
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1999
-      width: 738
-      height: 626
-    spriteID: 818b66777f0dc2549a946aaa876ea117
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -1151, y: 711}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -194,55 +150,20 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: Umbrella Copy
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 00000000000000000000000000000000
-    layerID: 0
-    mosaicPosition: {x: 0, y: 0}
   - name: Short
-    spriteName: 
-    isGroup: 1
-    parentIndex: 0
-    spriteID: 00000000000000000000000000000000
-    layerID: 869186504
-    mosaicPosition: {x: 0, y: 0}
-  - name: ShortBase
-    spriteName: ShortBase
+    spriteName: Short
     isGroup: 0
-    parentIndex: 1
-    spriteID: 70fb0364c25f61347a805a7f2ccda2ac
-    layerID: 333007055
-    mosaicPosition: {x: 4, y: 1503}
-  - name: ShortHandle
-    spriteName: ShortHandle
-    isGroup: 0
-    parentIndex: 1
-    spriteID: 60cb2cd7dbe413946873215c92380808
-    layerID: 1558454774
-    mosaicPosition: {x: 4, y: 2633}
+    parentIndex: -1
+    spriteID: 4e1269455cccd0d408a9db73969c3285
+    layerID: 0
+    mosaicPosition: {x: 4, y: 1786}
   - name: Long
-    spriteName: 
-    isGroup: 1
-    parentIndex: 0
-    spriteID: 00000000000000000000000000000000
+    spriteName: Long
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 36c00b5e2e7941c4cb0fd5526c5c03ed
     layerID: -1717921688
-    mosaicPosition: {x: 0, y: 0}
-  - name: LongBase
-    spriteName: LongBase
-    isGroup: 0
-    parentIndex: 4
-    spriteID: 74d873c7425fbe24c84b38cf1a90883d
-    layerID: 1891068899
     mosaicPosition: {x: 4, y: 4}
-  - name: LongHandle
-    spriteName: LongHandle
-    isGroup: 0
-    parentIndex: 4
-    spriteID: 818b66777f0dc2549a946aaa876ea117
-    layerID: 1395262798
-    mosaicPosition: {x: 4, y: 1999}
   characterData:
     bones: []
     parts: []

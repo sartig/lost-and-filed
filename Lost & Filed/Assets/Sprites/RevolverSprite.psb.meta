@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d9693ef576eba6848a45cbc0088a222d
+guid: 486121797c9f3484f9e2dd53963fc3ab
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: LuggageS Copy
+  - name: Handle Copy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,10 +95,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 2932
-      width: 998
-      height: 1137
-    spriteID: d29c1ffd5da97e740979314cfc713fea
+      y: 687
+      width: 654
+      height: 781
+    spriteID: 5fcc35938e9354f44b80ff5aae7c53e1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,30 +108,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -477, y: 2421}
-  - name: LuggageM Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1872
-      width: 1333
-      height: 1052
-    spriteID: ba9f697cafa70f24ca3eea3b73d86096
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -323, y: 1360}
-  - name: LuggageL Copy
+    uvTransform: {x: -1257, y: 197}
+  - name: Barral Copy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -140,9 +118,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1371
-      height: 1860
-    spriteID: 133c734f765999f43baee9bc2dec220a
+      width: 1509
+      height: 675
+    spriteID: 8e478d83ab6becd48a42657d23bd41f1
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,13 +130,13 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -323, y: -64}
+    uvTransform: {x: -91, y: -801}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
-  importedTextureWidth: 1024
+  importedTextureWidth: 2048
   importedTextureHeight: 2048
   documentSize: {x: 2000, y: 2000}
   paperDollMode: 0
@@ -166,32 +144,32 @@ ScriptedImporter:
   spriteCategoryList:
     categories: []
   textureActualWidth: 2048
-  textureActualHeight: 4096
+  textureActualHeight: 2048
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: LuggageS Copy
-    spriteName: LuggageS Copy
-    isGroup: 0
+  - name: Revolver Copy
+    spriteName: 
+    isGroup: 1
     parentIndex: -1
-    spriteID: d29c1ffd5da97e740979314cfc713fea
-    layerID: 4
-    mosaicPosition: {x: 4, y: 2932}
-  - name: LuggageM Copy
-    spriteName: LuggageM Copy
+    spriteID: 00000000000000000000000000000000
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+  - name: Handle Copy
+    spriteName: Handle Copy
     isGroup: 0
-    parentIndex: -1
-    spriteID: ba9f697cafa70f24ca3eea3b73d86096
-    layerID: 3
-    mosaicPosition: {x: 4, y: 1872}
-  - name: LuggageL Copy
-    spriteName: LuggageL Copy
+    parentIndex: 0
+    spriteID: 5fcc35938e9354f44b80ff5aae7c53e1
+    layerID: -2059735609
+    mosaicPosition: {x: 4, y: 687}
+  - name: Barral Copy
+    spriteName: Barral Copy
     isGroup: 0
-    parentIndex: -1
-    spriteID: 133c734f765999f43baee9bc2dec220a
-    layerID: 2
+    parentIndex: 0
+    spriteID: 8e478d83ab6becd48a42657d23bd41f1
+    layerID: -481950225
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
@@ -199,7 +177,7 @@ ScriptedImporter:
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: LuggageSprite Texture
-  prefabAssetName: LuggageSprite Prefab
-  spriteLibAssetName: LuggageSprite Sprite Lib
+  textureAssetName: RevolerSprite Texture
+  prefabAssetName: RevolerSprite Prefab
+  spriteLibAssetName: RevolerSprite Sprite Lib
   secondarySpriteTextures: []

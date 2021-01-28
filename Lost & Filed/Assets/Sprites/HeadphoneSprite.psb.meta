@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d9693ef576eba6848a45cbc0088a222d
+guid: b080695af874d5241ad08d5c00cd89ba
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: LuggageS Copy
+  - name: Cable Copy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,10 +95,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 2932
-      width: 998
-      height: 1137
-    spriteID: d29c1ffd5da97e740979314cfc713fea
+      y: 1396
+      width: 1462
+      height: 703
+    spriteID: c7b07e57001bcbf48a41c1995f978e2c
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,51 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -477, y: 2421}
-  - name: LuggageM Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1872
-      width: 1333
-      height: 1052
-    spriteID: ba9f697cafa70f24ca3eea3b73d86096
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -323, y: 1360}
-  - name: LuggageL Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 1371
-      height: 1860
-    spriteID: 133c734f765999f43baee9bc2dec220a
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -323, y: -64}
+    uvTransform: {x: -395, y: 1297}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -172,34 +128,34 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: LuggageS Copy
-    spriteName: LuggageS Copy
+  - name: Bud Copy
+    spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: d29c1ffd5da97e740979314cfc713fea
-    layerID: 4
-    mosaicPosition: {x: 4, y: 2932}
-  - name: LuggageM Copy
-    spriteName: LuggageM Copy
+    spriteID: 00000000000000000000000000000000
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+  - name: Headphone Copy
+    spriteName: 
     isGroup: 0
     parentIndex: -1
-    spriteID: ba9f697cafa70f24ca3eea3b73d86096
-    layerID: 3
-    mosaicPosition: {x: 4, y: 1872}
-  - name: LuggageL Copy
-    spriteName: LuggageL Copy
+    spriteID: 00000000000000000000000000000000
+    layerID: -938919959
+    mosaicPosition: {x: 0, y: 0}
+  - name: Cable Copy
+    spriteName: Cable Copy
     isGroup: 0
     parentIndex: -1
-    spriteID: 133c734f765999f43baee9bc2dec220a
-    layerID: 2
-    mosaicPosition: {x: 4, y: 4}
+    spriteID: c7b07e57001bcbf48a41c1995f978e2c
+    layerID: 1890637480
+    mosaicPosition: {x: 4, y: 1396}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: LuggageSprite Texture
-  prefabAssetName: LuggageSprite Prefab
-  spriteLibAssetName: LuggageSprite Sprite Lib
+  textureAssetName: HeadphoneSprite Texture
+  prefabAssetName: HeadphoneSprite Prefab
+  spriteLibAssetName: HeadphoneSprite Sprite Lib
   secondarySpriteTextures: []

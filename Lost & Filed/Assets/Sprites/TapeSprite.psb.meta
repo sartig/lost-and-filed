@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c1fad679d350d245aac4cc546828149
+guid: 0a5650c1ab8778b4eb097c196b2fb9d9
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,139 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: StickerD Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1789
-      width: 274
-      height: 238
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -1157, y: 686}
-  - name: StickerC Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 556
-      y: 1485
-      width: 276
-      height: 253
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -436, y: 786}
-  - name: StickerB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1108
-      y: 1485
-      width: 207
-      height: 217
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 794, y: 524}
-  - name: StickerA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 840
-      y: 1485
-      width: 260
-      height: 241
-    spriteID: 76de2307be57fad49bdb409de0293731
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 401, y: 143}
-  - name: BrandB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1485
-      width: 275
-      height: 296
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -693, y: 520}
-  - name: BrandA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 287
-      y: 1485
-      width: 261
-      height: 296
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -411, y: 509}
-  - name: Base Copy
+  - name: Curse Copy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -228,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1856
-      height: 1473
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
+      width: 1852
+      height: 1274
+    spriteID: e71fb4195fa8afb42ad7ecf80c55c7d5
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,7 +108,117 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -70, y: -265}
+    uvTransform: {x: -70, y: -333}
+  - name: Pain Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1286
+      width: 1852
+      height: 1274
+    spriteID: 71614f846c4b4f047a5e8c945dc0d1f0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -70, y: 949}
+  - name: Hair Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2568
+      width: 1852
+      height: 1274
+    spriteID: 9d4d0a79dec9edb41a28360ad5133fe2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -70, y: 2231}
+  - name: Death Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1864
+      y: 4
+      width: 1852
+      height: 1274
+    spriteID: f2765b8ce035416459f0972f64e42dc6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1790, y: -333}
+  - name: Well Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1864
+      y: 1286
+      width: 1852
+      height: 1274
+    spriteID: b25a7f599df8b4e4fbff134f10f38f3d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1790, y: 949}
+  - name: Ring Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1864
+      y: 2568
+      width: 1852
+      height: 1274
+    spriteID: 0491512d0ffd8224a89806e1b17a43c3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1790, y: 2231}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -253,76 +231,69 @@ ScriptedImporter:
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualWidth: 4096
+  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: LapTop Copy
+  - name: Tape Copy
     spriteName: 
     isGroup: 1
     parentIndex: -1
     spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
-  - name: StickerD Copy
-    spriteName: StickerD Copy
+  - name: Curse Copy
+    spriteName: Curse Copy
     isGroup: 0
     parentIndex: 0
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
-    layerID: -1233409168
-    mosaicPosition: {x: 4, y: 1789}
-  - name: StickerC Copy
-    spriteName: StickerC Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
-    layerID: -911969869
-    mosaicPosition: {x: 556, y: 1485}
-  - name: StickerB Copy
-    spriteName: StickerB Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    layerID: -830899634
-    mosaicPosition: {x: 1108, y: 1485}
-  - name: StickerA Copy
-    spriteName: StickerA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 76de2307be57fad49bdb409de0293731
-    layerID: 139101545
-    mosaicPosition: {x: 840, y: 1485}
-  - name: BrandB Copy
-    spriteName: BrandB Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    layerID: -413123876
-    mosaicPosition: {x: 4, y: 1485}
-  - name: BrandA Copy
-    spriteName: BrandA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    layerID: -656334581
-    mosaicPosition: {x: 287, y: 1485}
-  - name: Base Copy
-    spriteName: Base Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
-    layerID: -67264804
+    spriteID: e71fb4195fa8afb42ad7ecf80c55c7d5
+    layerID: -196304277
     mosaicPosition: {x: 4, y: 4}
+  - name: Pain Copy
+    spriteName: Pain Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 71614f846c4b4f047a5e8c945dc0d1f0
+    layerID: -1353017369
+    mosaicPosition: {x: 4, y: 1286}
+  - name: Hair Copy
+    spriteName: Hair Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9d4d0a79dec9edb41a28360ad5133fe2
+    layerID: 127617803
+    mosaicPosition: {x: 4, y: 2568}
+  - name: Death Copy
+    spriteName: Death Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f2765b8ce035416459f0972f64e42dc6
+    layerID: 1351141957
+    mosaicPosition: {x: 1864, y: 4}
+  - name: Well Copy
+    spriteName: Well Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b25a7f599df8b4e4fbff134f10f38f3d
+    layerID: 1551793315
+    mosaicPosition: {x: 1864, y: 1286}
+  - name: Ring Copy
+    spriteName: Ring Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0491512d0ffd8224a89806e1b17a43c3
+    layerID: -1845449753
+    mosaicPosition: {x: 1864, y: 2568}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: LaptopSprite Texture
-  prefabAssetName: LaptopSprite Prefab
-  spriteLibAssetName: LaptopSprite Sprite Lib
+  textureAssetName: TapeSprite Texture
+  prefabAssetName: TapeSprite Prefab
+  spriteLibAssetName: TapeSprite Sprite Lib
   secondarySpriteTextures: []

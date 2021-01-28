@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4c1fad679d350d245aac4cc546828149
+guid: 4835e4a7728161b46a52e05ab6e1533f
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -87,18 +87,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: StickerD Copy
+  - name: SwitchControl
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 1789
-      width: 274
-      height: 238
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
+      x: 1325
+      y: 4
+      width: 1890
+      height: 1159
+    spriteID: 39bce0a367a175b4195bd7245855ed6d
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,19 +108,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1157, y: 686}
-  - name: StickerC Copy
+    uvTransform: {x: 1277, y: -496}
+  - name: SwitchScreen
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 556
-      y: 1485
-      width: 276
-      height: 253
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
+      x: 1325
+      y: 2301
+      width: 1451
+      height: 1102
+    spriteID: 073a0338b29d96e4a91933abeb42624f
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -130,19 +130,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -436, y: 786}
-  - name: StickerB Copy
+    uvTransform: {x: 1061, y: 1784}
+  - name: GBAScreen
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1108
-      y: 1485
-      width: 207
-      height: 217
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
+      x: 3223
+      y: 4
+      width: 684
+      height: 584
+    spriteID: 931c7fd9e474041488dc63bd660a0bb7
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -152,74 +152,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 794, y: 524}
-  - name: StickerA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 840
-      y: 1485
-      width: 260
-      height: 241
-    spriteID: 76de2307be57fad49bdb409de0293731
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: 401, y: 143}
-  - name: BrandB Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 1485
-      width: 275
-      height: 296
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -693, y: 520}
-  - name: BrandA Copy
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 287
-      y: 1485
-      width: 261
-      height: 296
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    internalID: 0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    parentGroupIndex: -1
-    uvTransform: {x: -411, y: 509}
-  - name: Base Copy
+    uvTransform: {x: 2567, y: -1128}
+  - name: GBABase
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -228,9 +162,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1856
-      height: 1473
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
+      width: 1313
+      height: 1739
+    spriteID: bad93276ae2deae44b0dc92dc5e30ce5
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -240,7 +174,51 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -70, y: -265}
+    uvTransform: {x: -365, y: -148}
+  - name: PSPScreen
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3032
+      y: 1171
+      width: 1059
+      height: 753
+    spriteID: c29a7a2aeb0a9aa478835c0182ae89b0
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2633, y: 504}
+  - name: PSPBase
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1325
+      y: 1171
+      width: 1699
+      height: 1122
+    spriteID: 732d94f148b750f46ac14b293c317fc2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1237, y: 708}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -253,76 +231,90 @@ ScriptedImporter:
   keepDupilcateSpriteName: 0
   spriteCategoryList:
     categories: []
-  textureActualWidth: 2048
-  textureActualHeight: 2048
+  textureActualWidth: 4096
+  textureActualHeight: 4096
   spritePackingTag: 
   resliceFromLayer: 0
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: LapTop Copy
+  - name: GameConsole Copy
     spriteName: 
     isGroup: 1
     parentIndex: -1
     spriteID: 00000000000000000000000000000000
     layerID: 0
     mosaicPosition: {x: 0, y: 0}
-  - name: StickerD Copy
-    spriteName: StickerD Copy
-    isGroup: 0
+  - name: Switch Copy
+    spriteName: 
+    isGroup: 1
     parentIndex: 0
-    spriteID: 4598bd608b1e38b4e8dc43641b53cf96
-    layerID: -1233409168
-    mosaicPosition: {x: 4, y: 1789}
-  - name: StickerC Copy
-    spriteName: StickerC Copy
+    spriteID: 00000000000000000000000000000000
+    layerID: -15271301
+    mosaicPosition: {x: 0, y: 0}
+  - name: SwitchControl
+    spriteName: SwitchControl
     isGroup: 0
-    parentIndex: 0
-    spriteID: 9f1d30f60b858d748bf2c23a87f5c869
-    layerID: -911969869
-    mosaicPosition: {x: 556, y: 1485}
-  - name: StickerB Copy
-    spriteName: StickerB Copy
+    parentIndex: 1
+    spriteID: 39bce0a367a175b4195bd7245855ed6d
+    layerID: -670591759
+    mosaicPosition: {x: 1325, y: 4}
+  - name: SwitchScreen
+    spriteName: SwitchScreen
     isGroup: 0
+    parentIndex: 1
+    spriteID: 073a0338b29d96e4a91933abeb42624f
+    layerID: -2129580106
+    mosaicPosition: {x: 1325, y: 2301}
+  - name: GBA Copy
+    spriteName: 
+    isGroup: 1
     parentIndex: 0
-    spriteID: 3bb9d6992dafd3941bd21c95dac5afa3
-    layerID: -830899634
-    mosaicPosition: {x: 1108, y: 1485}
-  - name: StickerA Copy
-    spriteName: StickerA Copy
+    spriteID: 00000000000000000000000000000000
+    layerID: -1503154075
+    mosaicPosition: {x: 0, y: 0}
+  - name: GBAScreen
+    spriteName: GBAScreen
     isGroup: 0
-    parentIndex: 0
-    spriteID: 76de2307be57fad49bdb409de0293731
-    layerID: 139101545
-    mosaicPosition: {x: 840, y: 1485}
-  - name: BrandB Copy
-    spriteName: BrandB Copy
+    parentIndex: 4
+    spriteID: 931c7fd9e474041488dc63bd660a0bb7
+    layerID: -2026807174
+    mosaicPosition: {x: 3223, y: 4}
+  - name: GBABase
+    spriteName: GBABase
     isGroup: 0
-    parentIndex: 0
-    spriteID: 8dbeedb657b97db439bda87d8fa24561
-    layerID: -413123876
-    mosaicPosition: {x: 4, y: 1485}
-  - name: BrandA Copy
-    spriteName: BrandA Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: a9054e0bad70eab4c82c1f558df0b401
-    layerID: -656334581
-    mosaicPosition: {x: 287, y: 1485}
-  - name: Base Copy
-    spriteName: Base Copy
-    isGroup: 0
-    parentIndex: 0
-    spriteID: 03f9197c89d09dd418981d1f17a6e3de
-    layerID: -67264804
+    parentIndex: 4
+    spriteID: bad93276ae2deae44b0dc92dc5e30ce5
+    layerID: 598693237
     mosaicPosition: {x: 4, y: 4}
+  - name: PSP Copy
+    spriteName: 
+    isGroup: 1
+    parentIndex: 0
+    spriteID: 00000000000000000000000000000000
+    layerID: 1926956086
+    mosaicPosition: {x: 0, y: 0}
+  - name: PSPScreen
+    spriteName: PSPScreen
+    isGroup: 0
+    parentIndex: 7
+    spriteID: c29a7a2aeb0a9aa478835c0182ae89b0
+    layerID: -1320034649
+    mosaicPosition: {x: 3032, y: 1171}
+  - name: PSPBase
+    spriteName: PSPBase
+    isGroup: 0
+    parentIndex: 7
+    spriteID: 732d94f148b750f46ac14b293c317fc2
+    layerID: 16120996
+    mosaicPosition: {x: 1325, y: 1171}
   characterData:
     bones: []
     parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
   generateGOHierarchy: 0
-  textureAssetName: LaptopSprite Texture
-  prefabAssetName: LaptopSprite Prefab
-  spriteLibAssetName: LaptopSprite Sprite Lib
+  textureAssetName: GameConsolesSprite Texture
+  prefabAssetName: GameConsolesSprite Prefab
+  spriteLibAssetName: GameConsolesSprite Sprite Lib
   secondarySpriteTextures: []
