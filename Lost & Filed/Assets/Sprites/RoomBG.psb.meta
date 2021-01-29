@@ -87,7 +87,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: booblehand
+  - name: boobleHead
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3012
-      y: 701
+      y: 4
       width: 350
       height: 363
     spriteID: 7a7c9bc587555f547b39f59d1a3d74ed
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 890, y: -620}
+    uvTransform: {x: 1143, y: -1363}
   - name: boobleBase
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -197,7 +197,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  - name: boobleHead
+  - name: boobleHand
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -205,10 +205,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 3012
-      y: 4
-      width: 350
-      height: 363
-    spriteID: ca7efdf148acf964091449f256116b7d
+      y: 701
+      width: 161
+      height: 240
+    spriteID: 800155d11b0e78d44beae20fe795dbf3
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -218,7 +218,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1143, y: -1363}
+    uvTransform: {x: 891, y: -623}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -238,20 +238,20 @@ ScriptedImporter:
   characterMode: 1
   mosaicPSDLayers: []
   rigPSDLayers:
-  - name: booblehand
-    spriteName: booblehand
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 7a7c9bc587555f547b39f59d1a3d74ed
-    layerID: 0
-    mosaicPosition: {x: 3012, y: 701}
   - name: boobleHead
     spriteName: boobleHead
     isGroup: 0
     parentIndex: -1
-    spriteID: ca7efdf148acf964091449f256116b7d
-    layerID: -1058496663
+    spriteID: 7a7c9bc587555f547b39f59d1a3d74ed
+    layerID: 0
     mosaicPosition: {x: 3012, y: 4}
+  - name: boobleHand
+    spriteName: boobleHand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 800155d11b0e78d44beae20fe795dbf3
+    layerID: -137616310
+    mosaicPosition: {x: 3012, y: 701}
   - name: boobleBase
     spriteName: boobleBase
     isGroup: 0
