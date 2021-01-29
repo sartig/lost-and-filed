@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 795343095812384896}
   - component: {fileID: 8307665426395935085}
+  - component: {fileID: 4159524747757445706}
   m_Layer: 0
   m_Name: Pass
   m_TagString: Untagged
@@ -67,12 +68,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: 1065974221
+  m_SortingLayer: 4
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7447645045923892810, guid: 969fd733d48e65844953f46b2bf8f015,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.22352943, g: 0.4666667, b: 0.19215688, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -82,6 +83,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4159524747757445706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501223585998106016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7555b01b037b7543b7d9fa10048b0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palette:
+  - {r: 0.397, g: 0, b: 0, a: 1}
+  - {r: 0.192348, g: 0.23739682, b: 0.468, a: 1}
+  - {r: 0.37270343, g: 0.19215688, b: 0.46666667, a: 1}
+  - {r: 0.22343753, g: 0.46666667, b: 0.19215688, a: 1}
 --- !u!1 &6648481439366657219
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,6 +109,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1247869807488294003}
+  - component: {fileID: 7049589070095764478}
   m_Layer: 0
   m_Name: PassportSprite
   m_TagString: Untagged
@@ -107,13 +126,25 @@ Transform:
   m_GameObject: {fileID: 6648481439366657219}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.30197, y: 0.30197, z: 0.30197}
   m_Children:
   - {fileID: 4647891816475799044}
   - {fileID: 795343095812384896}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7049589070095764478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6648481439366657219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109722c250ea9a443972f892d3c6cbb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7166127205931538407
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4647891816475799044}
   - component: {fileID: 334331617040672877}
+  - component: {fileID: 4234822248780490260}
   m_Layer: 0
   m_Name: Papers
   m_TagString: Untagged
@@ -181,11 +213,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: 1065974221
+  m_SortingLayer: 4
+  m_SortingOrder: 0
   m_Sprite: {fileID: 426595111959844709, guid: 969fd733d48e65844953f46b2bf8f015, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5529412, g: 1, b: 0.4666667, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -195,3 +227,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4234822248780490260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7166127205931538407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7555b01b037b7543b7d9fa10048b0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palette:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0.9298628, b: 0.48900002, a: 1}
+  - {r: 0.49672, g: 0.88699996, b: 0.8613377, a: 1}
+  - {r: 0.55151933, g: 1, b: 0.4669811, a: 1}

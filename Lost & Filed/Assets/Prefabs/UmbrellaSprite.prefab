@@ -173,6 +173,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4748523742819586155}
+  - component: {fileID: 2082029527420312970}
   m_Layer: 0
   m_Name: UmbrellaSprite
   m_TagString: Untagged
@@ -189,12 +190,24 @@ Transform:
   m_GameObject: {fileID: 6550030333254535927}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.48258, y: 0.48258, z: 0.48258}
+  m_LocalScale: {x: 0.27644596, y: 0.27644596, z: 0.27644596}
   m_Children:
   - {fileID: 2790343277700520173}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2082029527420312970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6550030333254535927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109722c250ea9a443972f892d3c6cbb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8467730020263358152
 GameObject:
   m_ObjectHideFlags: 0
