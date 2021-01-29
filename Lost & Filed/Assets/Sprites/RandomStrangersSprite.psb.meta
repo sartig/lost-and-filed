@@ -1,0 +1,879 @@
+fileFormatVersion: 2
+guid: 2d97826678b1d8b4e82a4860a10f778e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Hair8 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2134
+      y: 559
+      width: 625
+      height: 523
+    spriteID: f7a3a754a23ed8848a9a85954e08e680
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1464, y: -687}
+  - name: Hair7 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2723
+      width: 837
+      height: 511
+    spriteID: 2285021bc8706d64eaec55f80f3f19df
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -545, y: 1419}
+  - name: Hair6 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 1235
+      width: 517
+      height: 659
+    spriteID: 9e6923cbd71c89745998bedfad2892e7
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 189, y: 138}
+  - name: Hair5 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2134
+      y: 1601
+      width: 603
+      height: 456
+    spriteID: 1355a12a50249b04aa50b14247728a46
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1405, y: 205}
+  - name: Hair4 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 3500
+      width: 460
+      height: 475
+    spriteID: e155e08af57774340b5aa7db716b6264
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 162, y: 2069}
+  - name: Hair3 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2773
+      y: 4
+      width: 679
+      height: 504
+    spriteID: 2adb0ccf42b646b4195d0081e070c40e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2146, y: -1406}
+  - name: Hair2 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3414
+      y: 516
+      width: 489
+      height: 299
+    spriteID: f3e5690b9089d844daddc4886433aa89
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2672, y: -935}
+  - name: Hair1 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2134
+      y: 2419
+      width: 517
+      height: 374
+    spriteID: c8f3c9d877bacfd42bcadfac46baad61
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1403, y: 949}
+  - name: Top8 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2144
+      width: 778
+      height: 571
+    spriteID: 91866a76d360cee48a1495256d0c3365
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -588, y: 1430}
+  - name: Top7 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1516
+      y: 4
+      width: 610
+      height: 590
+    spriteID: 3426682acd770c44a87966a9c038ef8e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 840, y: -699}
+  - name: Top6 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1551
+      width: 817
+      height: 585
+    spriteID: dcecee35be98acc499ed8e1ca83dd114
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -567, y: 846}
+  - name: Top5 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 2978
+      width: 493
+      height: 514
+    spriteID: f684b185f121d7d4391dbef2d4df616e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 177, y: 2208}
+  - name: Top4 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2134
+      y: 4
+      width: 631
+      height: 547
+    spriteID: 6ba4041317fbf20479525a2bd873639d
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1462, y: -737}
+  - name: Top3 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3242
+      width: 784
+      height: 517
+    spriteID: 98d097c1138bfb24f907387a09583c12
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -585, y: 2476}
+  - name: Top2 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 1902
+      width: 556
+      height: 525
+    spriteID: 595fd947d3a83dc4a8504581766abcd2
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 206, y: 1113}
+  - name: Top1 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 2435
+      width: 505
+      height: 535
+    spriteID: 5aaf87446eafca344a4961d9d941c515
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 187, y: 1684}
+  - name: ShoeC Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2773
+      y: 947
+      width: 791
+      height: 185
+    spriteID: abd9db49fb5f61a4a856a7c0629be5e6
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2199, y: 883}
+  - name: ShoeB Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3767
+      width: 761
+      height: 314
+    spriteID: b956c012bda953648944c52075d41949
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -581, y: 3654}
+  - name: shoeA Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2773
+      y: 1140
+      width: 711
+      height: 100
+    spriteID: c48a2cb2acdfa244cbfd11a7ee03e341
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2158, y: 1027}
+  - name: Pants6 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2134
+      y: 1090
+      width: 605
+      height: 503
+    spriteID: e03a0b0d7db7c92488128042f78cc431
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1463, y: 709}
+  - name: Pants5 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2134
+      y: 2065
+      width: 630
+      height: 346
+    spriteID: 6d1926b096182aa429e21a0ea78aac20
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1473, y: 1553}
+  - name: Pants4 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 645
+      width: 597
+      height: 582
+    spriteID: ce8a9fa379d72b04abeec3595d07763b
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 241, y: 432}
+  - name: Pants3 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 2773
+      y: 516
+      width: 633
+      height: 423
+    spriteID: 2c317d6eee9c2d744beaac50a8b9203f
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2113, y: 138}
+  - name: Pants2 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 911
+      y: 4
+      width: 597
+      height: 633
+    spriteID: ae254d9fb4f8a634fae0a9c3dc10d3fb
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 239, y: -206}
+  - name: Pants1 Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 3460
+      y: 4
+      width: 598
+      height: 426
+    spriteID: a34df6daf54da7947b1df029079fbd40
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 2783, y: -397}
+  - name: Base Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 899
+      height: 1539
+    spriteID: 76f6c7650b0e4a9439e877fa416729ba
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -537, y: -121}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 2048
+  importedTextureHeight: 2048
+  documentSize: {x: 2000, y: 2000}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 4096
+  textureActualHeight: 4096
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Randos Copy
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 
+    layerID: 0
+    mosaicPosition: {x: 0, y: 0}
+  - name: Hair8 Copy
+    spriteName: Hair8 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f7a3a754a23ed8848a9a85954e08e680
+    layerID: -711761937
+    mosaicPosition: {x: 2134, y: 559}
+  - name: Hair7 Copy
+    spriteName: Hair7 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2285021bc8706d64eaec55f80f3f19df
+    layerID: -711767712
+    mosaicPosition: {x: 4, y: 2723}
+  - name: Hair6 Copy
+    spriteName: Hair6 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 9e6923cbd71c89745998bedfad2892e7
+    layerID: -711768735
+    mosaicPosition: {x: 911, y: 1235}
+  - name: Hair5 Copy
+    spriteName: Hair5 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 1355a12a50249b04aa50b14247728a46
+    layerID: -711773982
+    mosaicPosition: {x: 2134, y: 1601}
+  - name: Hair4 Copy
+    spriteName: Hair4 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e155e08af57774340b5aa7db716b6264
+    layerID: -711775005
+    mosaicPosition: {x: 911, y: 3500}
+  - name: Hair3 Copy
+    spriteName: Hair3 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2adb0ccf42b646b4195d0081e070c40e
+    layerID: -711763356
+    mosaicPosition: {x: 2773, y: 4}
+  - name: Hair2 Copy
+    spriteName: Hair2 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f3e5690b9089d844daddc4886433aa89
+    layerID: -711764379
+    mosaicPosition: {x: 3414, y: 516}
+  - name: Hair1 Copy
+    spriteName: Hair1 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: c8f3c9d877bacfd42bcadfac46baad61
+    layerID: -711769626
+    mosaicPosition: {x: 2134, y: 2419}
+  - name: Top8 Copy
+    spriteName: Top8 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 91866a76d360cee48a1495256d0c3365
+    layerID: 1513466140
+    mosaicPosition: {x: 4, y: 2144}
+  - name: Top7 Copy
+    spriteName: Top7 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 3426682acd770c44a87966a9c038ef8e
+    layerID: 1498171453
+    mosaicPosition: {x: 1516, y: 4}
+  - name: Top6 Copy
+    spriteName: Top6 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: dcecee35be98acc499ed8e1ca83dd114
+    layerID: -1988935134
+    mosaicPosition: {x: 4, y: 1551}
+  - name: Top5 Copy
+    spriteName: Top5 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: f684b185f121d7d4391dbef2d4df616e
+    layerID: -1745724429
+    mosaicPosition: {x: 911, y: 2978}
+  - name: Top4 Copy
+    spriteName: Top4 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6ba4041317fbf20479525a2bd873639d
+    layerID: 1579241688
+    mosaicPosition: {x: 2134, y: 4}
+  - name: Top3 Copy
+    spriteName: Top3 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 98d097c1138bfb24f907387a09583c12
+    layerID: 44590505
+    mosaicPosition: {x: 4, y: 3242}
+  - name: Top2 Copy
+    spriteName: Top2 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 595fd947d3a83dc4a8504581766abcd2
+    layerID: 852451214
+    mosaicPosition: {x: 911, y: 1902}
+  - name: Top1 Copy
+    spriteName: Top1 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 5aaf87446eafca344a4961d9d941c515
+    layerID: 1095661919
+    mosaicPosition: {x: 911, y: 2435}
+  - name: ShoeC Copy
+    spriteName: ShoeC Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: abd9db49fb5f61a4a856a7c0629be5e6
+    layerID: -2034023745
+    mosaicPosition: {x: 2773, y: 947}
+  - name: ShoeB Copy
+    spriteName: ShoeB Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b956c012bda953648944c52075d41949
+    layerID: -2034018498
+    mosaicPosition: {x: 4, y: 3767}
+  - name: shoeA Copy
+    spriteName: shoeA Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: c48a2cb2acdfa244cbfd11a7ee03e341
+    layerID: -2069535967
+    mosaicPosition: {x: 2773, y: 1140}
+  - name: Pants6 Copy
+    spriteName: Pants6 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: e03a0b0d7db7c92488128042f78cc431
+    layerID: 834767047
+    mosaicPosition: {x: 2134, y: 1090}
+  - name: Pants5 Copy
+    spriteName: Pants5 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 6d1926b096182aa429e21a0ea78aac20
+    layerID: 1642627756
+    mosaicPosition: {x: 2134, y: 2065}
+  - name: Pants4 Copy
+    spriteName: Pants4 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ce8a9fa379d72b04abeec3595d07763b
+    layerID: 1561557521
+    mosaicPosition: {x: 911, y: 645}
+  - name: Pants3 Copy
+    spriteName: Pants3 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2c317d6eee9c2d744beaac50a8b9203f
+    layerID: -537743666
+    mosaicPosition: {x: 2773, y: 516}
+  - name: Pants2 Copy
+    spriteName: Pants2 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: ae254d9fb4f8a634fae0a9c3dc10d3fb
+    layerID: -618813901
+    mosaicPosition: {x: 911, y: 4}
+  - name: Pants1 Copy
+    spriteName: Pants1 Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: a34df6daf54da7947b1df029079fbd40
+    layerID: 189046808
+    mosaicPosition: {x: 3460, y: 4}
+  - name: Base Copy
+    spriteName: Base Copy
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 76f6c7650b0e4a9439e877fa416729ba
+    layerID: -67264804
+    mosaicPosition: {x: 4, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: RandomStrangersSprite Texture
+  prefabAssetName: RandomStrangersSprite Prefab
+  spriteLibAssetName: RandomStrangersSprite Sprite Lib
+  secondarySpriteTextures: []

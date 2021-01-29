@@ -87,6 +87,50 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
+  - name: Bud Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2107
+      width: 1160
+      height: 632
+    spriteID: dbe045dd217d79e4c9f2733b6084830c
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -112, y: 1601}
+  - name: Headphone Copy
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1243
+      height: 1384
+    spriteID: 413eee2ace5593a46b255bd7ad1d7dea
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -211, y: -512}
   - name: Cable Copy
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -98,7 +142,7 @@ ScriptedImporter:
       y: 1396
       width: 1462
       height: 703
-    spriteID: c7b07e57001bcbf48a41c1995f978e2c
+    spriteID: adb2e9f4e750b67468c2832bebb35160
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -129,25 +173,25 @@ ScriptedImporter:
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Bud Copy
-    spriteName: 
+    spriteName: Bud Copy
     isGroup: 0
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
-    layerID: 0
-    mosaicPosition: {x: 0, y: 0}
+    spriteID: dbe045dd217d79e4c9f2733b6084830c
+    layerID: 4
+    mosaicPosition: {x: 4, y: 2107}
   - name: Headphone Copy
-    spriteName: 
+    spriteName: Headphone Copy
     isGroup: 0
     parentIndex: -1
-    spriteID: 00000000000000000000000000000000
-    layerID: -938919959
-    mosaicPosition: {x: 0, y: 0}
+    spriteID: 413eee2ace5593a46b255bd7ad1d7dea
+    layerID: 3
+    mosaicPosition: {x: 4, y: 4}
   - name: Cable Copy
     spriteName: Cable Copy
     isGroup: 0
     parentIndex: -1
-    spriteID: c7b07e57001bcbf48a41c1995f978e2c
-    layerID: 1890637480
+    spriteID: adb2e9f4e750b67468c2832bebb35160
+    layerID: 2
     mosaicPosition: {x: 4, y: 1396}
   characterData:
     bones: []
