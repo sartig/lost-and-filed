@@ -96,9 +96,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 1680
-      width: 1249
-      height: 836
-    spriteID: 31ebcc0062eb08043869ff2887b5cbd9
+      width: 1238
+      height: 1403
+    spriteID: bd9ceb87096e63a4cbc5c43135d3a995
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -108,7 +108,29 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -747, y: 1680}
+    uvTransform: {x: -37, y: 1543}
+  - name: CodeMachine_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3091
+      width: 1249
+      height: 836
+    spriteID: cab01f5364f767643b1d876d4c690d01
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -747, y: 3091}
   - name: BG
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -120,7 +142,7 @@ ScriptedImporter:
       y: 4
       width: 2000
       height: 1668
-    spriteID: 0416f82dfaf710043aa580236359d68f
+    spriteID: f7d322167b43f4041b3416a5be7dd0e6
     internalID: 0
     spriteBone: []
     spriteOutline: []
@@ -154,15 +176,22 @@ ScriptedImporter:
     spriteName: CodeMachine
     isGroup: 0
     parentIndex: -1
-    spriteID: 31ebcc0062eb08043869ff2887b5cbd9
-    layerID: 0
+    spriteID: bd9ceb87096e63a4cbc5c43135d3a995
+    layerID: 5
     mosaicPosition: {x: 4, y: 1680}
+  - name: CodeMachine
+    spriteName: CodeMachine_1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cab01f5364f767643b1d876d4c690d01
+    layerID: 4
+    mosaicPosition: {x: 4, y: 3091}
   - name: BG
     spriteName: BG
     isGroup: 0
     parentIndex: -1
-    spriteID: 0416f82dfaf710043aa580236359d68f
-    layerID: 428224017
+    spriteID: f7d322167b43f4041b3416a5be7dd0e6
+    layerID: 3
     mosaicPosition: {x: 4, y: 4}
   characterData:
     bones: []
