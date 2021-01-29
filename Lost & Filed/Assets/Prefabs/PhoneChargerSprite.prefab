@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1571166698891130998}
+  - component: {fileID: 7995701451414468834}
   m_Layer: 0
   m_Name: PhoneChargerSprite
   m_TagString: Untagged
@@ -25,13 +26,25 @@ Transform:
   m_GameObject: {fileID: 1266503009228430642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.30517057, y: 0.30517057, z: 0.30517057}
   m_Children:
   - {fileID: 1770121104129780911}
   - {fileID: 6141175880134935790}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7995701451414468834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266503009228430642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109722c250ea9a443972f892d3c6cbb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1362867595835898589
 GameObject:
   m_ObjectHideFlags: 0
@@ -41,6 +54,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1770121104129780911}
+  - component: {fileID: 3897643599986403252}
   m_Layer: 0
   m_Name: Cable
   m_TagString: Untagged
@@ -66,6 +80,21 @@ Transform:
   m_Father: {fileID: 1571166698891130998}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3897643599986403252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1362867595835898589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7555b01b037b7543b7d9fa10048b0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palette:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.45400003, g: 0.45400003, b: 0.45400003, a: 1}
 --- !u!1 &1635476568090604395
 GameObject:
   m_ObjectHideFlags: 0
@@ -82,7 +111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2077965667363769514
 Transform:
   m_ObjectHideFlags: 0
@@ -164,7 +193,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5180866828975544087
 Transform:
   m_ObjectHideFlags: 0
@@ -240,6 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6141175880134935790}
   - component: {fileID: 4703439332645550535}
+  - component: {fileID: 6893121814294020819}
   m_Layer: 0
   m_Name: ChargerBase
   m_TagString: Untagged
@@ -302,7 +332,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 5975405046331849668, guid: a96715908854ad54cadd04bec0e4ae5d,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.27058825, b: 0.86666673, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -312,6 +342,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6893121814294020819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3879370250540364627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7555b01b037b7543b7d9fa10048b0b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  palette:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.33999997, g: 1, b: 0.37299994, a: 1}
+  - {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  - {r: 1, g: 0.2688679, b: 0.86595905, a: 1}
 --- !u!1 &5862482615687606332
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,7 +431,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 3293097749981615067, guid: a96715908854ad54cadd04bec0e4ae5d,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.454902, g: 0.454902, b: 0.454902, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -410,7 +457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6283634015669983771
 Transform:
   m_ObjectHideFlags: 0
