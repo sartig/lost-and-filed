@@ -44,7 +44,10 @@ TagManager:
   - name: EnvironmentBG
     uniqueID: 221688923
     locked: 0
-  - name: CustomerLayer
+  - name: CustomerBackLayer
+    uniqueID: 2476221411
+    locked: 0
+  - name: CustomerFrontLayer
     uniqueID: 2348406191
     locked: 0
   - name: RoomBG

@@ -10,7 +10,6 @@ public class MouseDragScript : MonoBehaviour
     Vector3 delta;
     
     private void OnMouseDown() {
-        Debug.Log("Mouse down");
         mousePosition = Input.mousePosition;
         mousePosition.z = -Camera.main.transform.position.z;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
@@ -18,7 +17,6 @@ public class MouseDragScript : MonoBehaviour
     }
 
     private void OnMouseDrag() {
-        Debug.Log("Mouse dragging");
         mousePosition = Input.mousePosition;
         mousePosition.z = -Camera.main.transform.position.z;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
