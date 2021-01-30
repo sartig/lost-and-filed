@@ -27,4 +27,10 @@ public class RandomizeColours : MonoBehaviour
             }
         }
     }
+
+    void OnEnable() {
+        if(randomizeOnSpawn) {
+            Randomize();
+        }
+    }
 }
