@@ -17,6 +17,24 @@ TextureImporter:
   - first:
       213: 7655897656410584219
     second: talking3
+  - first:
+      213: 8670044403613724886
+    second: speechBubble
+  - first:
+      213: -4499588510915602905
+    second: folderTop
+  - first:
+      213: 8631472377070858662
+    second: folderBottom
+  - first:
+      213: -5492795085370152239
+    second: speechIcon1
+  - first:
+      213: -9036476389290667132
+    second: speechIcon2
+  - first:
+      213: 7837422609927210255
+    second: speechIcon3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -116,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d833c9ef02e32a50800000000000000
-      internalID: 6495283645572659413
+      spriteID: 6d07240037f225870800000000000000
+      internalID: 8670044403613724886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: folderLarge
+      name: folderTop
       rect:
         serializedVersion: 2
-        x: 109
-        y: 1525
-        width: 2816
-        height: 2334
+        x: 436
+        y: 2557
+        width: 2155
+        height: 1302
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b2a0fea0da906d80800000000000000
-      internalID: -8259431495518608720
+      spriteID: 7265273d6104e81c0800000000000000
+      internalID: -4499588510915602905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talking1
+      name: folderBottom
       rect:
         serializedVersion: 2
-        x: 340
-        y: 844
-        width: 249
-        height: 334
+        x: 436
+        y: 1149
+        width: 2153
+        height: 1189
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,18 +176,39 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae30cfaee00c1a390800000000000000
-      internalID: -7808749108579269654
+      spriteID: 6a1b7eb356629c770800000000000000
+      internalID: 8631472377070858662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talking2
+      name: speechIcon1
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 533
+        width: 250
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da2080d8fba5c3b0800000000000000
+      internalID: -5492795085370152239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: speechIcon2
       rect:
         serializedVersion: 2
         x: 575
-        y: 768
+        y: 458
         width: 388
         height: 344
       alignment: 0
@@ -179,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bfc88d3c90190d60800000000000000
-      internalID: 7856829288157859768
+      spriteID: 483102be99cf79280800000000000000
+      internalID: -9036476389290667132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: talking3
+      name: speechIcon3
       rect:
         serializedVersion: 2
         x: 655
-        y: 428
+        y: 118
         width: 352
-        height: 256
+        height: 257
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +239,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9439171b563f3a60800000000000000
-      internalID: 7655897656410584219
+      spriteID: f05835bd65e14cc60800000000000000
+      internalID: 7837422609927210255
       vertices: []
       indices: 
       edges: []
