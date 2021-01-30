@@ -3,12 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+public enum FoundObject
+{
+    Sword,Key,PowerBank,Child,Grandmother,Laptop,Head,Umbrella,VideoTape,Glasses,Wallet,Passport,
+    Headphones,GameConsole,Ring,StuffedBear,Familiar,Dog,Luggage,Revolver,CardboardBox
+}
+
 public class RaiseFolderUp : MonoBehaviour
 {
+    public FoundObject myObject;
     public Transform folderRaiseHeight;
     public float raiseTime;
     public Material textMaskedMat;
     public Material textUnmaskedMat;
+    public LargeFolderScript largeFolderScript;
     Vector3 startPosition;
     Vector3 endPosition;
     bool folderInCabinet = true;
@@ -36,6 +44,9 @@ public class RaiseFolderUp : MonoBehaviour
             transform.position = Vector3.Lerp(startPos,endPos,timer/duration);
             timer+=Time.deltaTime;
             yield return new WaitForEndOfFrame();
+        }
+        if(!folderInCabinet) {
+            largeFolderScript.LargeFolderAppear(this,GetComponentInChildren<TextMeshPro>().text);
         }
         // raise big folder
         // pass script to folder anim to make returning the folder correct
