@@ -23,6 +23,8 @@ public class MouseDragScript : MonoBehaviour
         mousePosition.z = -Camera.main.transform.position.z;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
         Vector3 drawerRawPosition = mousePosition-delta;
+        drawerRawPosition.x = Mathf.Clamp(drawerRawPosition.x,-5.42f,83.79066f);
+        drawerRawPosition.y = Mathf.Clamp(drawerRawPosition.y,-55.30952f,-5.87f);
         Vector3 drawerSnappedPosition = NearestPointOnLine(drawerParent.position,new Vector3(1,-0.5543f,0),drawerRawPosition);
         drawerSnappedPosition.z=0;
         //drawerParent.position = mousePosition-delta;
@@ -39,8 +41,8 @@ public class MouseDragScript : MonoBehaviour
 
     // y = -0.5543x - 8.886629 (?)
     // xMin = -5.42
-    // xMax = ??
-    // yMin = ??
+    // xMax = 83.79066
+    // yMin = -55.31952
     // yMax = -5.87
 
     // diff between drawers: x: -6.5-.6.17 = -12.6285405015
