@@ -17,6 +17,11 @@ public class LargeFolderScript : MonoBehaviour
         triggeringScript = triggerScript;
         m_animator.SetBool("largeFolderActive",true);
         folderName.text = categoryName;
+        //randomize polaroid frames
+    }
+
+    void GeneratePolaroidImages() {
+        
     }
 
     public void LargeFolderDisappear() {

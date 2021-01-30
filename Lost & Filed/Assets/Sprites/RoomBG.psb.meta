@@ -94,8 +94,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3012
-      y: 4
+      x: 2505
+      y: 1177
       width: 350
       height: 363
     spriteID: fb5d51593c8b3db46bf944c949004e95
@@ -108,7 +108,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1143, y: -1363}
+    uvTransform: {x: 636, y: -190}
   - name: boobleHand
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -116,8 +116,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3012
-      y: 701
+      x: 3567
+      y: 1177
       width: 161
       height: 240
     spriteID: f3f81c629e88f45468be5b543745141b
@@ -130,7 +130,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 891, y: -623}
+    uvTransform: {x: 1446, y: -147}
   - name: boobleBase
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -138,8 +138,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3012
-      y: 375
+      x: 3223
+      y: 1177
       width: 336
       height: 318
     spriteID: bc45ad17192578b4e8fcbbe916b3bec0
@@ -152,7 +152,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1135, y: -757}
+    uvTransform: {x: 1346, y: 45}
   - name: Shelf
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -160,8 +160,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 2012
+      x: 2505
+      y: 4
       width: 1284
       height: 1165
     spriteID: d944abdfe448a684ba2577dde3b0bd92
@@ -174,7 +174,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: -1712, y: 1232}
+    uvTransform: {x: 789, y: -776}
   - name: Fanblade
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -182,8 +182,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 3370
-      y: 4
+      x: 2863
+      y: 1177
       width: 352
       height: 318
     spriteID: 50de704f44b8c86478b1bcb9220752e5
@@ -196,7 +196,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 885, y: -1502}
+    uvTransform: {x: 378, y: -329}
   - name: BG
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -206,7 +206,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 3000
+      width: 2492
       height: 2000
     spriteID: 408c49c75f1918c45ace0f71613c0db7
     internalID: 0
@@ -218,7 +218,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: -503, y: 4}
   platformSettings: []
   mosaicLayers: 1
   documentPivot: {x: 0, y: 0}
@@ -244,35 +244,35 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: fb5d51593c8b3db46bf944c949004e95
     layerID: 7
-    mosaicPosition: {x: 3012, y: 4}
+    mosaicPosition: {x: 2505, y: 1177}
   - name: boobleHand
     spriteName: boobleHand
     isGroup: 0
     parentIndex: -1
     spriteID: f3f81c629e88f45468be5b543745141b
     layerID: 6
-    mosaicPosition: {x: 3012, y: 701}
+    mosaicPosition: {x: 3567, y: 1177}
   - name: boobleBase
     spriteName: boobleBase
     isGroup: 0
     parentIndex: -1
     spriteID: bc45ad17192578b4e8fcbbe916b3bec0
     layerID: 5
-    mosaicPosition: {x: 3012, y: 375}
+    mosaicPosition: {x: 3223, y: 1177}
   - name: Shelf
     spriteName: Shelf
     isGroup: 0
     parentIndex: -1
     spriteID: d944abdfe448a684ba2577dde3b0bd92
     layerID: 4
-    mosaicPosition: {x: 4, y: 2012}
+    mosaicPosition: {x: 2505, y: 4}
   - name: Fanblade
     spriteName: Fanblade
     isGroup: 0
     parentIndex: -1
     spriteID: 50de704f44b8c86478b1bcb9220752e5
     layerID: 3
-    mosaicPosition: {x: 3370, y: 4}
+    mosaicPosition: {x: 2863, y: 1177}
   - name: BG
     spriteName: BG
     isGroup: 0
