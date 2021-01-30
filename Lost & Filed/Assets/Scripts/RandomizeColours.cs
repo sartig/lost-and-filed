@@ -4,7 +4,15 @@ using UnityEngine;
 
 public class RandomizeColours : MonoBehaviour
 {
-    void Randomize() {
+    public bool randomizeOnSpawn = false;
+
+    void Start() {
+        if(randomizeOnSpawn) {
+            Randomize();
+        }
+    }
+
+    public void Randomize() {
         for(int i = 0; i < transform.childCount; i++) {
             if(transform.GetChild(i).childCount>0) {
                 int enabled = Random.Range(0,transform.GetChild(i).childCount);
