@@ -18,6 +18,8 @@ public class ClientManager : MonoBehaviour
     public RandomizeColours[] bubbleRandomizers;
     public GameObject[] regularClientRandomizableObjects; // the randomizable object prefab on the client's hand for when they collect
     public GameObject[] specialClientRandomizableObjects;
+    List<int> specialCharsServed = new List<int>();
+    List<bool> specialCharsServedCorrectly = new List<bool>();
 
     int requestCount;
 
@@ -38,7 +40,7 @@ public class ClientManager : MonoBehaviour
     }
 
     public void MakeNextRequest() {
-        if(requestCount%3==0) { // every 7th client is "special"
+        if(requestCount%6==0) { // every 7th client is "special"
             currentActiveClient = 2;
             specialClientAnimator.SetTrigger("GoToWindow");
 

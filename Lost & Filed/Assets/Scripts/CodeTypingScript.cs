@@ -10,12 +10,17 @@ public class CodeTypingScript : MonoBehaviour
     public TextMeshPro lcdText;
     Animator m_anim;
     public BoxCollider2D keypadActivationCollider;
+    AudioSource keypadButtonNoise;
+    public AudioClip keypadButton;
+    public AudioClip keypadCancel;
+    public AudioClip keypadConfirm;
 
     void Awake() {
-        ClearText();
         m_anim = GetComponent<Animator>();
         clientManager = GameObject.FindObjectOfType<ClientManager>();
         largeFolderScript = GameObject.FindObjectOfType<LargeFolderScript>();
+        keypadButtonNoise = GetComponent<AudioSource>();
+        lcdText.text = "";
     }
 
     public void MakeKeypadAppear() {
@@ -24,14 +29,17 @@ public class CodeTypingScript : MonoBehaviour
     }
     public void ClearText() {
         lcdText.text = "";
+        keypadButtonNoise.PlayOneShot(keypadCancel);
     }
 
     public void AddChar(string s) {
         lcdText.text+=s;
+        keypadButtonNoise.PlayOneShot(keypadButton);
     }
 
     public void PrintReceipt() {
         //make ticket appear + print
+        keypadButtonNoise.PlayOneShot(keypadConfirm);
         largeFolderScript.CheckForValidCode(lcdText.text); // pass code to see if it matches anything
         ClearText(); //then clear display
         clientManager.ClearRequestDisplay(); // clear speech bubble and that prefab display

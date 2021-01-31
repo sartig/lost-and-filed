@@ -8,6 +8,11 @@ public class MouseDragScript : MonoBehaviour
     public Transform drawerParent;
     Vector3 mousePosition;
     Vector3 delta;
+    AudioSource cabinetDrawerSFX;
+
+    void Awake() {
+        cabinetDrawerSFX = GameObject.Find("CabinetDrawerMoving").GetComponent<AudioSource>();
+    }
     
     private void OnMouseDown() {
         mousePosition = Input.mousePosition;
@@ -27,6 +32,17 @@ public class MouseDragScript : MonoBehaviour
         drawerSnappedPosition.z=0;
         //drawerParent.position = mousePosition-delta;
         drawerParent.position = drawerSnappedPosition;
+        cabinetDrawerSFX.volume=Mathf.Clamp(cabinetDrawerSFX.volume+Time.deltaTime*5,0,1);
+    }
+
+    private void OnMouseUp() {
+        StartCoroutine(ReduceCabinetVolume());
+    }
+    IEnumerator ReduceCabinetVolume() {
+        while(cabinetDrawerSFX.volume>0) {
+            cabinetDrawerSFX.volume = Mathf.Clamp(cabinetDrawerSFX.volume-Time.deltaTime*5,0,1);
+            yield return new WaitForEndOfFrame();
+        }
     }
 
     public static Vector3 NearestPointOnLine(Vector3 linePnt, Vector3 lineDir, Vector3 pnt)

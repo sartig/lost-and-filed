@@ -15,6 +15,7 @@ public class LargeFolderScript : MonoBehaviour
     int arrayEntry; // basically used as a long-winded mapping of enum -> array position as an int
     public TextMeshPro[] codeTexts;
     string[] codes = new string[6];
+    public AudioClip[] paperAudioClips;
 
     void Awake() {
         m_animator = GetComponent<Animator>();
@@ -76,6 +77,10 @@ public class LargeFolderScript : MonoBehaviour
             }
             // otherwise the poor person gets nothing :(
         }
+    }
+
+    public void PlayPaperNoise() {
+        GetComponent<AudioSource>().PlayOneShot(paperAudioClips[Random.Range(0,paperAudioClips.Length)]);
     }
 
     public void LargeFolderDisappear(bool andShutCabinet) {
